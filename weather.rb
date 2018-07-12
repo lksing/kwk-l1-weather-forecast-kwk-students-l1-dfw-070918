@@ -48,7 +48,8 @@ end
 def convert_temp(weather)
   ((weather[:temperature_farenheit].to_i - 32) * (5/9))
 end
-convert_temp(nyc_weather)
+
+puts convert_temp(nyc_weather)
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 
 
